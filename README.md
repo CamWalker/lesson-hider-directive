@@ -152,7 +152,7 @@ A string binding simply tries to grab the string value that is passed to it.
 A function binding allows you to pass a function from the controller into your directive.
 
 So let's give our new `scope:` object a key-value pair with the key being `lesson` and the value being `'='`. What we are doing here is telling our directive
-that we plan on having an attribute named `lesson` on our \<lesson-hider> directive and we want to create a two way data binding between our directive and the parent controller on whatever
+that we plan on having an attribute named `lesson` on our <lesson-hider> directive and we want to create a two way data binding between our directive and the parent controller on whatever
 value is passed to that attribute. To demonstrate this two way binding we first need to pass our directive a `lesson` attribute and give that attribute a value.
 
 In our `lessonCtrl` let's create a new property on the `$scope` and call it 'test', we will give this a value of `'Two-way data binding!'`. Now let's add `{{
@@ -331,4 +331,3 @@ prohibited. Excerpts and links may be used, provided that full and clear credit 
 content.
 
 <img src="https://devmounta.in/img/logowhiteblue.png" width="250">
-
